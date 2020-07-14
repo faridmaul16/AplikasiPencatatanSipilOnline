@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "284041012755",
+    "firebase_url": "https://oraapp-edcd5.firebaseio.com",
+    "project_id": "oraapp-edcd5",
+    "storage_bucket": "oraapp-edcd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284041012755:android:8c6aa56eaf06eef6f901e6",
+        "android_client_info": {
+          "package_name": "com.e.oraapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284041012755-5ercrq4m9ruumbqekvbr84h54faqsu1o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmF3SxDilyZqQQZpZzZjhNASg9JHspE80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284041012755-5ercrq4m9ruumbqekvbr84h54faqsu1o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

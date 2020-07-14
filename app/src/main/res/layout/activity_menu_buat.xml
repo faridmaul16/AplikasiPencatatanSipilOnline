@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuBuat">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageButton
+            android:padding="10dp"
+            android:id="@+id/btnKembali"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/ic_chevron_left_black_24dp"/>
+        <TextView
+            android:id="@+id/toolbar"
+            android:layout_toRightOf="@+id/btnKembali"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Pembuatan KK"
+            android:textSize="20dp"
+            android:padding="10dp"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#707070"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="1. Masukan Surat Pengantar RT/Rw"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/keteranganfile"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:hint="Masukan File"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/btnPilih"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Pilih" />
+            <Button
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/btnUpload"
+                android:textSize="12dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Upload" />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#707070"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="2. Masukan Foto Copy Buku Nikah"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/keteranganfile1"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:hint="Masukan File"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/btnPilih1"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Pilih" />
+            <Button
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/btnUpload1"
+                android:textSize="12dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Upload" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textColor="#707070"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:text="3. Masukan Surat Keterangan Pindah"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/keteranganfile2"
+            android:padding="10dp"
+            android:textSize="15dp"
+            android:hint="Masukan File"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/btnPilih2"
+                android:textSize="12dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Pilih" />
+            <Button
+                android:background="@drawable/custom_button"
+                android:textAllCaps="false"
+                android:id="@+id/btnUpload2"
+                android:textSize="12dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:text="Upload" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="12dp"
+            android:layout_marginLeft="10dp"
+            android:text="*catatan : semua file dalam bentuk pdf"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:id="@+id/btnProses"
+            android:layout_marginLeft="150dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Proses" />
+        <Button
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:id="@+id/btnBack"
+            android:layout_marginLeft="30dp"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Kembali" />
+    </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/iphone"
+    tools:context=".MenuMulai">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+        <TextView
+            android:textColor="#707070"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:text="Selamat Datang Di"/>
+
+        <TextView
+            android:textColor="#00FCD1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="OraRibet App"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+        <TextView
+            android:textColor="#707070"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Sistem Administrasi Pencatatan Sipil Online"/>
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:background="@drawable/plumber_35611_960_720_57b1bdeb729373a115425e34"
+            android:layout_marginBottom="50dp"/>
+        <Button
+            android:background="@drawable/custom_button"
+            android:textAllCaps="false"
+            android:id="@+id/btnMulai"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:textSize="20dp"
+            android:text="Mulai"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
